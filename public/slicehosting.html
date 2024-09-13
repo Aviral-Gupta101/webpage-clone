@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class=" font-[Ubuntu] bg-black">
+<body class="font-[Ubuntu] bg-[#030712]">
     <!-- bg-[radial-gradient(130%_150%_at_50%_10%,hsl(var(--background))_40%,#8b5cf6)] -->
 
     <!-- NAVBAR -->
-    <div class="w-full fixed">
+    <div class="w-full fixed z-20">
 
         <!-- Get our powerful 2024 Sale Server now! -->
         <div class="flex flex-col backdrop-blur-xl bg-black bg-opacity-15 z-[999]">
@@ -159,7 +159,7 @@
 
         <!-- Design the dream -->
         <div
-            class="flex flex-col justify-center items-center h-screen  pt-[90px] bg-gradient-to-b from-black to-[#453080] via-black">
+            class="flex flex-col justify-center items-center h-screen  pt-[90px] bg-gradient-to-b from-[#030712] to-[#453080] via-black">
 
             <div class="flex flex-col items-center space-y-2">
                 <div class="text-3xl md:text-5xl text-white font-semibold">Design the dream,</div>
@@ -199,7 +199,7 @@
 
 
     <!-- BLACK CONTAINER -->
-    <div class="bg-black px-4 space-y-10 pt-[100px]">
+    <div class="bg-[#030712] px-4 space-y-10 pt-[100px]">
 
         <div class="text-white text-3xl font-semibold text-center sm:text-left">
             Why should you choose us?
@@ -340,298 +340,382 @@
             <a href="#" class="text-white">Ask us on our Discord!</a>
         </div>
 
-        <!-- CAROUSEL -->
-        <div class="pt-10">
-            <div class="text-white text-3xl font-semibold px-2">Our offer</div>
+        <!-- COMBINED DIV -->
+        <div class="">
+            <!-- CAROUSEL -->
+            <div class="pt-10">
+                <div class="text-white text-3xl font-semibold px-2">Our offer</div>
 
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-6">
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-6">
 
-                <!-- CARD-1 -->
-                <div
-                    class="flex flex-col text-white gap-10 bg-transparent border-[1px] bg-opacity-15  rounded-xl border-gray-700 py-6 px-6">
+                    <!-- CARD-1 -->
+                    <div
+                        class="flex flex-col text-white  gap-10 backdrop-blur-lg border-[1px] bg-opacity-15 rounded-xl border-gray-700 py-6 px-6">
 
-                    <div class="flex flex-col gap-1 items-center text-center">
-                        <div class="text-base  text-[#9BA3AF]">VPS Ryzen - Frankfurt</div>
-                        <div class="text-3xl text-center ">12.00 USD/month+</div>
-                    </div>
+                        <div class="flex flex-col gap-1 items-center text-center">
+                            <div class="text-base  text-[#9BA3AF]">VPS Ryzen - Frankfurt</div>
+                            <div class="text-3xl text-center ">12.00 USD/month+</div>
+                        </div>
 
-                    <div class="space-y-2">
-                        <div class="flex flex-col">
+                        <div class="space-y-2">
+                            <div class="flex flex-col">
+
+                                <div class="flex text-[#9BA3AF] gap-4 items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="text-[#9BA3AF] lucide lucide-cpu">
+                                        <rect width="16" height="16" x="4" y="4" rx="2" />
+                                        <rect width="6" height="6" x="9" y="9" rx="1" />
+                                        <path d="M15 2v2" />
+                                        <path d="M15 20v2" />
+                                        <path d="M2 15h2" />
+                                        <path d="M2 9h2" />
+                                        <path d="M20 15h2" />
+                                        <path d="M20 9h2" />
+                                        <path d="M9 2v2" />
+                                        <path d="M9 20v2" />
+                                    </svg>
+                                    <div class="text-lg">CPU: AMD EPYC 7742</div>
+                                </div>
+
+                            </div>
 
                             <div class="flex text-[#9BA3AF] gap-4 items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="text-[#9BA3AF] lucide lucide-cpu">
-                                    <rect width="16" height="16" x="4" y="4" rx="2" />
-                                    <rect width="6" height="6" x="9" y="9" rx="1" />
-                                    <path d="M15 2v2" />
-                                    <path d="M15 20v2" />
-                                    <path d="M2 15h2" />
-                                    <path d="M2 9h2" />
-                                    <path d="M20 15h2" />
-                                    <path d="M20 9h2" />
-                                    <path d="M9 2v2" />
-                                    <path d="M9 20v2" />
+                                    stroke-linejoin="round" class="lucide lucide-hard-drive">
+                                    <line x1="22" x2="2" y1="12" y2="12" />
+                                    <path
+                                        d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z" />
+                                    <line x1="6" x2="6.01" y1="16" y2="16" />
+                                    <line x1="10" x2="10.01" y1="16" y2="16" />
                                 </svg>
-                                <div class="text-lg">CPU: AMD EPYC 7742</div>
+                                <div class="text-lg">Disk: SSD</div>
                             </div>
-
                         </div>
 
-                        <div class="flex text-[#9BA3AF] gap-4 items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="lucide lucide-hard-drive">
-                                <line x1="22" x2="2" y1="12" y2="12" />
-                                <path
-                                    d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z" />
-                                <line x1="6" x2="6.01" y1="16" y2="16" />
-                                <line x1="10" x2="10.01" y1="16" y2="16" />
-                            </svg>
-                            <div class="text-lg">Disk: SSD</div>
+                        <div
+                            class=" text-center hover:bg-[#967EE2] text-black bg-[#A78BFA] rounded-md px-4 py-2 text-sm ring-1 ring-gray-800">
+                            View
                         </div>
                     </div>
 
+                    <!-- CARD 2 -->
                     <div
-                        class=" text-center hover:bg-[#967EE2] text-black bg-[#A78BFA] rounded-md px-4 py-2 text-sm ring-1 ring-gray-800">
-                        View
-                    </div>
-                </div>
+                        class="flex flex-col text-white  gap-10 backdrop-blur-lg border-[1px] bg-opacity-15 rounded-xl border-gray-700 py-6 px-6">
 
-                <!-- CARD 2 -->
-                <div
-                    class="flex flex-col text-white gap-10 bg-transparent  border-[1px] bg-opacity-15 rounded-xl border-gray-700 py-6 px-6">
+                        <div class="flex flex-col gap-1 items-center text-center">
+                            <div class="text-base  text-[#9BA3AF]">VPS Ryzen - Frankfurt</div>
+                            <div class="text-3xl text-center ">12.00 USD/month+</div>
+                        </div>
 
-                    <div class="flex flex-col gap-1 items-center text-center">
-                        <div class="text-base  text-[#9BA3AF]">VPS Ryzen - Frankfurt</div>
-                        <div class="text-3xl text-center ">12.00 USD/month+</div>
-                    </div>
+                        <div class="space-y-2">
+                            <div class="flex flex-col">
 
-                    <div class="space-y-2">
-                        <div class="flex flex-col">
+                                <div class="flex text-[#9BA3AF] gap-4 items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="text-[#9BA3AF] lucide lucide-cpu">
+                                        <rect width="16" height="16" x="4" y="4" rx="2" />
+                                        <rect width="6" height="6" x="9" y="9" rx="1" />
+                                        <path d="M15 2v2" />
+                                        <path d="M15 20v2" />
+                                        <path d="M2 15h2" />
+                                        <path d="M2 9h2" />
+                                        <path d="M20 15h2" />
+                                        <path d="M20 9h2" />
+                                        <path d="M9 2v2" />
+                                        <path d="M9 20v2" />
+                                    </svg>
+                                    <div class="text-lg">CPU: AMD EPYC 7742</div>
+                                </div>
+
+                            </div>
 
                             <div class="flex text-[#9BA3AF] gap-4 items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="text-[#9BA3AF] lucide lucide-cpu">
-                                    <rect width="16" height="16" x="4" y="4" rx="2" />
-                                    <rect width="6" height="6" x="9" y="9" rx="1" />
-                                    <path d="M15 2v2" />
-                                    <path d="M15 20v2" />
-                                    <path d="M2 15h2" />
-                                    <path d="M2 9h2" />
-                                    <path d="M20 15h2" />
-                                    <path d="M20 9h2" />
-                                    <path d="M9 2v2" />
-                                    <path d="M9 20v2" />
+                                    stroke-linejoin="round" class="lucide lucide-hard-drive">
+                                    <line x1="22" x2="2" y1="12" y2="12" />
+                                    <path
+                                        d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z" />
+                                    <line x1="6" x2="6.01" y1="16" y2="16" />
+                                    <line x1="10" x2="10.01" y1="16" y2="16" />
                                 </svg>
-                                <div class="text-lg">CPU: AMD EPYC 7742</div>
+                                <div class="text-lg">Disk: SSD</div>
                             </div>
-
                         </div>
 
-                        <div class="flex text-[#9BA3AF] gap-4 items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="lucide lucide-hard-drive">
-                                <line x1="22" x2="2" y1="12" y2="12" />
-                                <path
-                                    d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z" />
-                                <line x1="6" x2="6.01" y1="16" y2="16" />
-                                <line x1="10" x2="10.01" y1="16" y2="16" />
-                            </svg>
-                            <div class="text-lg">Disk: SSD</div>
+                        <div
+                            class=" text-center hover:bg-[#967EE2] text-black bg-[#A78BFA] rounded-md px-4 py-2 text-sm ring-1 ring-gray-800">
+                            View
                         </div>
                     </div>
 
+                    <!-- CARD 3 -->
                     <div
-                        class=" text-center hover:bg-[#967EE2] text-black bg-[#A78BFA] rounded-md px-4 py-2 text-sm ring-1 ring-gray-800">
-                        View
-                    </div>
-                </div>
+                        class="flex flex-col text-white  gap-10 backdrop-blur-lg  border-[1px] bg-opacity-15 rounded-xl border-gray-700 py-6 px-6">
 
-                <!-- CARD 3 -->
-                <div
-                    class="flex flex-col text-white gap-10 bg-transparent   border-[1px] bg-opacity-15 rounded-xl border-gray-700 py-6 px-6">
+                        <div class="flex flex-col gap-1 items-center text-center">
+                            <div class="text-base  text-[#9BA3AF]">VPS Ryzen - Frankfurt</div>
+                            <div class="text-3xl text-center ">12.00 USD/month+</div>
+                        </div>
 
-                    <div class="flex flex-col gap-1 items-center text-center">
-                        <div class="text-base  text-[#9BA3AF]">VPS Ryzen - Frankfurt</div>
-                        <div class="text-3xl text-center ">12.00 USD/month+</div>
-                    </div>
+                        <div class="space-y-2">
+                            <div class="flex flex-col">
 
-                    <div class="space-y-2">
-                        <div class="flex flex-col">
+                                <div class="flex text-[#9BA3AF] gap-4 items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="text-[#9BA3AF] lucide lucide-cpu">
+                                        <rect width="16" height="16" x="4" y="4" rx="2" />
+                                        <rect width="6" height="6" x="9" y="9" rx="1" />
+                                        <path d="M15 2v2" />
+                                        <path d="M15 20v2" />
+                                        <path d="M2 15h2" />
+                                        <path d="M2 9h2" />
+                                        <path d="M20 15h2" />
+                                        <path d="M20 9h2" />
+                                        <path d="M9 2v2" />
+                                        <path d="M9 20v2" />
+                                    </svg>
+                                    <div class="text-lg">CPU: AMD EPYC 7742</div>
+                                </div>
+
+                            </div>
 
                             <div class="flex text-[#9BA3AF] gap-4 items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="text-[#9BA3AF] lucide lucide-cpu">
-                                    <rect width="16" height="16" x="4" y="4" rx="2" />
-                                    <rect width="6" height="6" x="9" y="9" rx="1" />
-                                    <path d="M15 2v2" />
-                                    <path d="M15 20v2" />
-                                    <path d="M2 15h2" />
-                                    <path d="M2 9h2" />
-                                    <path d="M20 15h2" />
-                                    <path d="M20 9h2" />
-                                    <path d="M9 2v2" />
-                                    <path d="M9 20v2" />
+                                    stroke-linejoin="round" class="lucide lucide-hard-drive">
+                                    <line x1="22" x2="2" y1="12" y2="12" />
+                                    <path
+                                        d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z" />
+                                    <line x1="6" x2="6.01" y1="16" y2="16" />
+                                    <line x1="10" x2="10.01" y1="16" y2="16" />
                                 </svg>
-                                <div class="text-lg">CPU: AMD EPYC 7742</div>
+                                <div class="text-lg">Disk: SSD</div>
                             </div>
-
                         </div>
 
-                        <div class="flex text-[#9BA3AF] gap-4 items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="lucide lucide-hard-drive">
-                                <line x1="22" x2="2" y1="12" y2="12" />
-                                <path
-                                    d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z" />
-                                <line x1="6" x2="6.01" y1="16" y2="16" />
-                                <line x1="10" x2="10.01" y1="16" y2="16" />
-                            </svg>
-                            <div class="text-lg">Disk: SSD</div>
+                        <div
+                            class=" text-center hover:bg-[#967EE2] text-black bg-[#A78BFA] rounded-md px-4 py-2 text-sm ring-1 ring-gray-800">
+                            View
                         </div>
                     </div>
 
+                    <!-- CARD 4 -->
                     <div
-                        class=" text-center hover:bg-[#967EE2] text-black bg-[#A78BFA] rounded-md px-4 py-2 text-sm ring-1 ring-gray-800">
-                        View
-                    </div>
-                </div>
+                        class="lg:hidden flex flex-col text-white  gap-10 backdrop-blur-lg  border-[1px] bg-opacity-15 rounded-xl border-gray-700 py-6 px-6">
 
-                <!-- CARD 4 -->
-                <div
-                    class="lg:hidden flex flex-col text-white gap-10 bg-transparent   border-[1px] bg-opacity-15 rounded-xl border-gray-700 py-6 px-6">
+                        <div class="flex flex-col gap-1 items-center text-center">
+                            <div class="text-base  text-[#9BA3AF]">VPS Ryzen - Frankfurt</div>
+                            <div class="text-3xl text-center ">12.00 USD/month+</div>
+                        </div>
 
-                    <div class="flex flex-col gap-1 items-center text-center">
-                        <div class="text-base  text-[#9BA3AF]">VPS Ryzen - Frankfurt</div>
-                        <div class="text-3xl text-center ">12.00 USD/month+</div>
-                    </div>
+                        <div class="space-y-2">
+                            <div class="flex flex-col">
 
-                    <div class="space-y-2">
-                        <div class="flex flex-col">
+                                <div class="flex text-[#9BA3AF] gap-4 items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="text-[#9BA3AF] lucide lucide-cpu">
+                                        <rect width="16" height="16" x="4" y="4" rx="2" />
+                                        <rect width="6" height="6" x="9" y="9" rx="1" />
+                                        <path d="M15 2v2" />
+                                        <path d="M15 20v2" />
+                                        <path d="M2 15h2" />
+                                        <path d="M2 9h2" />
+                                        <path d="M20 15h2" />
+                                        <path d="M20 9h2" />
+                                        <path d="M9 2v2" />
+                                        <path d="M9 20v2" />
+                                    </svg>
+                                    <div class="text-lg">CPU: AMD EPYC 7742</div>
+                                </div>
+
+                            </div>
 
                             <div class="flex text-[#9BA3AF] gap-4 items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="text-[#9BA3AF] lucide lucide-cpu">
-                                    <rect width="16" height="16" x="4" y="4" rx="2" />
-                                    <rect width="6" height="6" x="9" y="9" rx="1" />
-                                    <path d="M15 2v2" />
-                                    <path d="M15 20v2" />
-                                    <path d="M2 15h2" />
-                                    <path d="M2 9h2" />
-                                    <path d="M20 15h2" />
-                                    <path d="M20 9h2" />
-                                    <path d="M9 2v2" />
-                                    <path d="M9 20v2" />
+                                    stroke-linejoin="round" class="lucide lucide-hard-drive">
+                                    <line x1="22" x2="2" y1="12" y2="12" />
+                                    <path
+                                        d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z" />
+                                    <line x1="6" x2="6.01" y1="16" y2="16" />
+                                    <line x1="10" x2="10.01" y1="16" y2="16" />
                                 </svg>
-                                <div class="text-lg">CPU: AMD EPYC 7742</div>
+                                <div class="text-lg">Disk: SSD</div>
                             </div>
-
                         </div>
 
-                        <div class="flex text-[#9BA3AF] gap-4 items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        <div
+                            class=" text-center hover:bg-[#967EE2] text-black bg-[#A78BFA] rounded-md px-4 py-2 text-sm ring-1 ring-gray-800">
+                            View
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- FREQUENTLY ASKED QUESTIONS -->
+            <div class="text-white space-y-4 pt-[100px] pb-6 radial-effect-container">
+
+                <div class="text-3xl font-semibold px-3 pb-3">Frequently asked questions</div>
+
+                <div class="grid sm:grid-cols-2 gap-4 px-3">
+
+                    <div
+                        class="flex justify-between border-[1px] border-gray-700 backdrop-blur-lg px-4 py-4 rounded-md">
+                        <a href="#" class="hover:underline text-sm">What are your business hours?</a>
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="lucide lucide-hard-drive">
-                                <line x1="22" x2="2" y1="12" y2="12" />
-                                <path
-                                    d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z" />
-                                <line x1="6" x2="6.01" y1="16" y2="16" />
-                                <line x1="10" x2="10.01" y1="16" y2="16" />
-                            </svg>
-                            <div class="text-lg">Disk: SSD</div>
-                        </div>
+                                stroke-linejoin="round" class="text-white lucide lucide-chevron-down">
+                                <path d="m6 9 6 6 6-6" />
+                            </svg></a>
                     </div>
 
                     <div
-                        class=" text-center hover:bg-[#967EE2] text-black bg-[#A78BFA] rounded-md px-4 py-2 text-sm ring-1 ring-gray-800">
-                        View
+                        class="flex justify-between border-[1px] border-gray-700 backdrop-blur-lg px-4 py-4 rounded-md">
+                        <a href="#" class="hover:underline text-sm">Can I change my OS?</a>
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="text-white lucide lucide-chevron-down">
+                                <path d="m6 9 6 6 6-6" />
+                            </svg></a>
                     </div>
+
+                    <div
+                        class="flex justify-between border-[1px] border-gray-700 backdrop-blur-lg px-4 py-4 rounded-md">
+                        <a href="#" class="hover:underline text-sm">What am I allowed to host?</a>
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="text-white lucide lucide-chevron-down">
+                                <path d="m6 9 6 6 6-6" />
+                            </svg></a>
+                    </div>
+
+                    <div
+                        class="flex justify-between border-[1px] border-gray-700 backdrop-blur-lg px-4 py-4 rounded-md">
+                        <a href="#" class="hover:underline text-sm">Do you support Windows?</a>
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="text-white lucide lucide-chevron-down">
+                                <path d="m6 9 6 6 6-6" />
+                            </svg></a>
+                    </div>
+
+                    <div
+                        class="flex justify-between border-[1px] border-gray-700 backdrop-blur-lg px-4 py-4 rounded-md">
+                        <a href="#" class="hover:underline text-sm">Can I upgrade my plan?</a>
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="text-white lucide lucide-chevron-down">
+                                <path d="m6 9 6 6 6-6" />
+                            </svg></a>
+                    </div>
+
+                    <div
+                        class="flex justify-between border-[1px] border-gray-700 backdrop-blur-lg px-4 py-4 rounded-md">
+                        <a href="#" class="hover:underline text-sm">Do you provide DDoS protection?</a>
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="text-white lucide lucide-chevron-down">
+                                <path d="m6 9 6 6 6-6" />
+                            </svg></a>
+                    </div>
+
+
+
                 </div>
 
+
+            </div>
+
+            <!-- Can't decide? Let us help you choose the right hosting plan. -->
+            <div class="flex flex-col items-center gap-3 pt-48 mb-12 px-3 pb-20">
+                <div class="text-white text-2xl sm:text-3xl font-medium text-center text-balance">
+                    Can't decide? Let us help you choose the right hosting plan.
+                </div>
+
+                <div class="text-[#9BA3AF] text-lg text-center max-w-[400px] sm:max-w-[700px]">
+                    We are ready to help you choose the perfect hosting solution for your website. Simplify your hosting
+                    experience and begin your journey with us today.
+                </div>
+
+                <div
+                    class=" text-center hover:bg-[#967EE2] text-black bg-[#A78BFA] rounded-md px-8 py-2 text-sm ring-1 ring-gray-800">
+                    Contact Us
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="flex bg-[#030712] sm:text-base text-white p-6 flex-wrap flex-col gap-8 sm:gap-2 sm:flex-row items-center border-t-[1px] border-gray-700 ">
+
+        <div class="flex flex-col gap-2 items-start  flex-[2]">
+            <!-- ICON -->
+            <a href="" class="mb-1">
+                <div class="flex items-center space-x-2">
+                    <img src="../assets/logo.svg" width="56" height="56" alt="logo">
+                    <div class="text-xl">Slicehosting</div>
+                </div>
+            </a>
+
+            <div>
+                "Minecraft" is a trademark of Mojang AB.
+            </div>
+
+            <div>
+                © Slicehosting 2024.
+            </div>
+
+        </div>
+
+        <div class="grid grid-cols-2">
+            <div class="font-medium">
+                Follow us
+            </div>
+
+            <div class="font-medium">
+               Legal
+            </div>
+
+            <div class="text-[#9BA3AF] font-medium">
+                Discord
+            </div>
+
+            <div class="text-[#9BA3AF] font-medium">
+                Privacy Policy
+            </div>
+
+            <div class="text-[#9BA3AF] font-medium">
+                Trustpilot
+            </div>
+
+            <div class="text-[#9BA3AF] font-medium">
+                Terms and Conditions
+            </div>
+
+            <div class="text-[#9BA3AF] font-medium">
+                Status
+            </div>
+
+            <div class="text-[#9BA3AF] font-medium">
+                About Us
             </div>
 
         </div>
 
     </div>
 
-
-    <!-- FREQUENTLY ASKED QUESTIONS -->
-
-    <div class="text-white space-y-4 pt-[100px] radial-effect-container">
-
-        <div class="text-3xl font-semibold px-3 pb-3">Frequently asked questions</div>
-
-        <div class="grid sm:grid-cols-2 gap-4 px-3">
-
-            <div class="flex justify-between border-[1px] border-gray-700 bg-transparent backdrop-blur-lg px-4 py-4 rounded-md">
-                <a href="#" class="hover:underline text-sm">What are your business hours?</a>
-                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" class="text-white lucide lucide-chevron-down">
-                        <path d="m6 9 6 6 6-6" />
-                    </svg></a>
-            </div>
-
-            <div class="flex justify-between border-[1px] border-gray-700 bg-transparent px-4 py-4 rounded-md">
-                <a href="#" class="hover:underline text-sm">Can I change my OS?</a>
-                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" class="text-white lucide lucide-chevron-down">
-                        <path d="m6 9 6 6 6-6" />
-                    </svg></a>
-            </div>
-
-            <div class="flex justify-between border-[1px] border-gray-700 bg-transparent px-4 py-4 rounded-md">
-                <a href="#" class="hover:underline text-sm">What am I allowed to host?</a>
-                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" class="text-white lucide lucide-chevron-down">
-                        <path d="m6 9 6 6 6-6" />
-                    </svg></a>
-            </div>
-
-            <div class="flex justify-between border-[1px] border-gray-700 bg-transparent px-4 py-4 rounded-md">
-                <a href="#" class="hover:underline text-sm">Do you support Windows?</a>
-                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" class="text-white lucide lucide-chevron-down">
-                        <path d="m6 9 6 6 6-6" />
-                    </svg></a>
-            </div>
-
-            <div class="flex justify-between border-[1px] border-gray-700 bg-transparent px-4 py-4 rounded-md">
-                <a href="#" class="hover:underline text-sm">Can I upgrade my plan?</a>
-                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" class="text-white lucide lucide-chevron-down">
-                        <path d="m6 9 6 6 6-6" />
-                    </svg></a>
-            </div>
-
-            <div class="flex justify-between border-[1px] border-gray-700 bg-transparent px-4 py-4 rounded-md">
-                <a href="#" class="hover:underline text-sm">Do you provide DDoS protection?</a>
-                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" class="text-white lucide lucide-chevron-down">
-                        <path d="m6 9 6 6 6-6" />
-                    </svg></a>
-            </div>
-
-        </div>
-
-
-    </div>
-
-    </div>
-
-    <div class="h-[5000px] w-[500px]"></div>
 
 </body>
 
 </html>
+
+<!-- text-[#9BA3AF] gray -->
