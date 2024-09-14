@@ -1,25 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Instagram</title>
 </head>
-<body>
-    
 
-    <!-- CARD -->
-    <div class="flex flex-col items-center justify-center ">
-        <div class="flex flex-col justify-center items-center border-[1px] min-w-[348px]">
-            <img src="../assets/ic_instagram.svg" alt="instagram_logo" width="175px">
-            <input type="text" id="12312" name="12312" placeholder="Phone number, username or email address">
-            <input type="password" placeholder="Password">
-            <input type="tel" name="" id="">
+<body>
+
+    <div class="flex flex-col items-center justify-center font-[-apple-system, system-ui,]">
+        <!-- INSTA CARD -->
+        <div class="flex flex-col sm:border-[1px] border-gray-300 px-10 pt-12 pb-5 space-y-10 max-w-[400px] sm:max-w-[350px]">
+
+            <div class="flex justify-center">
+                <img src="/ic_instagram.svg" width="175px" alt="insta_logo">
+            </div>
+
+            <div class="flex flex-col">
+                <input
+                    class="rounded-sm outline-0 placeholder:text-gray-500 placeholder:text-xs h-[36px] border-[1px] border-gray-300 bg-[#FAFAFA] pb-[7px] pl-[8px]"
+                    type="text" placeholder="Phone number, username or email address">
+                <input
+                    class="rounded-sm mt-[5px] outline-0 placeholder:text-gray-500 placeholder:text-xs h-[36px] border-[1px] border-gray-300 bg-[#FAFAFA] pb-[7px] pl-[8px]"
+                    type="password" placeholder="Password">
+                <button class="rounded-md bg-[#67B5FA] text-sm text-white font-semibold py-1 mt-3">Log in</button>
+                <div class="flex justify-center items-center mt-1">
+                    <hr class="opacity-40 w-48 h-[0.5px] mx-auto my-4 bg-gray-50 border-0 rounded dark:bg-gray-700">
+                    <div class="p-3 text-sm text-gray-500 font-semibold">OR</div>
+                    <hr class="opacity-40 w-48 h-[0.5px] mx-auto my-4 bg-gray-50 border-0 rounded dark:bg-gray-700">
+                </div>
+                <div class="flex justify-center space-x-2 items-center mt-4">
+                    <svg width="16px" height="16px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <title>Facebook-color</title>
+                            <desc>Created with Sketch.</desc>
+                            <defs> </defs>
+                            <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="Color-" transform="translate(-200.000000, -160.000000)" fill="#375085">
+                                    <path
+                                        d="M225.638355,208 L202.649232,208 C201.185673,208 200,206.813592 200,205.350603 L200,162.649211 C200,161.18585 201.185859,160 202.649232,160 L245.350955,160 C246.813955,160 248,161.18585 248,162.649211 L248,205.350603 C248,206.813778 246.813769,208 245.350955,208 L233.119305,208 L233.119305,189.411755 L239.358521,189.411755 L240.292755,182.167586 L233.119305,182.167586 L233.119305,177.542641 C233.119305,175.445287 233.701712,174.01601 236.70929,174.01601 L240.545311,174.014333 L240.545311,167.535091 C239.881886,167.446808 237.604784,167.24957 234.955552,167.24957 C229.424834,167.24957 225.638355,170.625526 225.638355,176.825209 L225.638355,182.167586 L219.383122,182.167586 L219.383122,189.411755 L225.638355,189.411755 L225.638355,208 L225.638355,208 Z"
+                                        id="Facebook"> </path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <a class="text-[#375085] font-semibold text-sm text-center" href="#">Log in with Facebook</a>
+                </div>
+
+                <a class="text-[#375085] text-xs text-center mt-4" href="#">Forgotten your password?</a>
+            </div>
+
         </div>
 
-        
+        <!-- Dont have account -->
+        <div class="flex sm:border-[1px] border-gray-300 sm:w-[350px] w-[400px] mt-2 justify-center items-center py-6">
+            <div class="text-sm">Don't have an account?</div>
+            <a class="text-sm text-[#0095F6] font-semibold" href="#">Sign up</a>
+        </div>
+
+        <!-- Get APP -->
+        <div class="flex flex-col sm:w-[350px] w-[400px] mt-4 justify-center items-center space-y-4">
+            <div class="text-sm">Get the app.</div>
+
+            <div class="flex flex-row  justify-between w-full space-x-2 max-h-[75px] px-10">
+
+                <div class="basis-1/2 ">
+                    <a href="#"><img src="https://static.cdninstagram.com/rsrc.php/v3/yt/r/Yfc020c87j0.png" alt="app_store"></a>
+                </div>
+
+                <div class="basis-1/2">
+                    <a class="object-cover" href="#">
+                        <img src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png" alt="play_store">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
     </div>
-    <input type="text" id="12312" name="12312" placeholder="Phone number, username or email address">
+
+    </div>
+
 </body>
+
 </html>
